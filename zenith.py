@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 #root file 
 f  = ROOT.TFile("mcv6.4.gsg_anumu-CCHEDIS_1e2-1e8GeV.sirene.jterbr.jchain.aashower.dst.merged_9635_10005_inline.root")
-#------------------------------------------------------------------------
+
 
 #-------Comparing run ids with events and mc_run_id----------------------
 test_list1=[]
