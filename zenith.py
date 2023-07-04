@@ -94,7 +94,26 @@ for i in range(len(run_id)):
 
  
 #------------------------------------------------
+#-------------Histograms-------------------
+#run id
+plt.hist(run_id, bins = 100)
+plt.show()
 
+#events
+plt.hist(events, bins = 100)
+plt.show()
+
+#mc run id
+plt.hist(mc_run_id, bins = 100)
+plt.show()
+
+#track_dir_z
+plt.hist(track_dir_z, bins = 100)
+plt.show()
+
+#likelihood
+plt.hist(likelihood, bins = 100)
+plt.show()
 
 
                            
